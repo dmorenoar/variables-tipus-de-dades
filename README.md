@@ -1,36 +1,36 @@
-# Tipus de dades
+# 👨‍🎓 Tipus de dades
 
 Definim una variable posant-li nom i assignant un valor amb =
 en python no hem d'especificar el tipus de dada.
 
-## int (enters) - Són nombres sense part decimal.
+## ♦️ int (enters) - Són nombres sense part decimal.
 ```python
 number = 10
 numberTwo = -3
 numberThree = 0
 ```
 
-## str (string) - Són cadenes de text, entre cometes simples o dobles.
+## ♦️ str (string) - Són cadenes de text, entre cometes simples o dobles.
 ```python
 name = 'Dani'
 pokemon = "Pikachu"
 letter = 'A'
 ```
 
-## bool (booleà) - Només poden tenir dos valors: True o False.
+## ♦️ bool (booleà) - Només poden tenir dos valors: True o False.
 ```python
 isAdmin = True
 isShiny = False
 ```
 
-## float (decimals) - Són nombres amb part decimal.
+## ♦️ float (decimals) - Són nombres amb part decimal.
 ```python
 price = 10.99
 pi = 3.1416
 temperature = -2.5
 ```
 
-## Mostra dades per pantalla
+## ♦️ Mostrar dades per pantalla
 
 ### Print s'utilitza per mostrar dades per pantalla
 
@@ -66,7 +66,7 @@ print("El preu és " + str(price + 10))
 print(f"El preu és {price + 10}")
 ```
 
-## Lectura de dades de l'usuari
+## ♦️ Lectura de dades de l'usuari
 
 ### Llegir un text (cadena)
 ```python
@@ -104,7 +104,7 @@ print(f'Has escrit base: {b} i altura:{h}')
 print(f"L'àrea del triangle és {(b*h)/2}")
 ```
 
-## Operacions amb nombres
+## ♦️ Operacions amb nombres
 
 **Important fer servir parèntesis per respectar l'ordre:**
 ```python
@@ -135,7 +135,7 @@ Dóna el residu del valor de l'esquerra dividit pel valor de la dreta:
 print(10 % 2)
 ```
 
-## Operacions amb variables
+## ♦️ Operacions amb variables
 ```python
 total_price = numberThree + number
 print(f'El preu total és {total_price}')
